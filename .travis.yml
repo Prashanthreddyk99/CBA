@@ -6,10 +6,10 @@ compiler:
  - clang
  - gcc
 script:
- - gcc -o test pattern2.c
- - gcc -o test tree.c
- - gcc -o test diamond.c
- - gcc -o test triangle.c
+ - gcc -o  pattern2.c
+ - gcc -o  tree.c
+ - gcc -o  diamond.c
+ - gcc -o  triangle.c
  - ./pattern2
  - ./tree
  - ./diamond
