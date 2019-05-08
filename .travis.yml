@@ -9,7 +9,7 @@ matrix:
         - gcc -o pattern2 pattern2.c 
         - ./pattern2
         - gcc -o triangle1 triangle1.c
-        - ./triangle
+        - ./triangle1
         - gcc -o tree tree.c
         - ./tree
         - gcc -o diamond diamond.c
