@@ -6,12 +6,12 @@ compiler:
  - clang
  - gcc
 script:
- - gcc -o  pattern2.c
- - gcc -o  tree.c
- - gcc -o  diamond.c
- - gcc -o  triangle.c
- - ./pattern2
- - ./tree
- - ./diamond
+ - gcc -o  pattern2 pattern2.c
+  - ./pattern2
+ - gcc -o  tree tree.c
+  - ./tree
+ - gcc -o  diamond diamond.c
+  - ./diamond
+ - gcc -o  triangle triangle.c
  - ./triangle
  
