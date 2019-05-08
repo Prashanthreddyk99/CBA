@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main() {
+int main() {
 	int i,j;
 	
 	for (i=0; i<5; i++) {
@@ -9,5 +9,6 @@ void main() {
 		}
 		printf("\n");
 	}
+	return 0;
 	
 }
