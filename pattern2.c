@@ -4,14 +4,10 @@
 
 int main()
 {
-    int i, j, rows, columns;
+    int i, j, rows=4, columns=5;
 
     
-    printf("Enter number of rows: ");
-    scanf("%d", &rows);
-    printf("Enter number of columns: ");
-    scanf("%d", &columns);
-
+    
     for(i=1; i<=rows; i++)
     {
        
