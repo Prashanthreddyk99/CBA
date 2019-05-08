@@ -1,17 +1,17 @@
 matrix:
-include:
-language: c
-sudo: false # only for faster builds
-compiler:
- - clang
- - gcc
-script:
- - gcc -o  pattern2 pattern2.c
-  - ./pattern2
- - gcc -o  tree tree.c
-  - ./tree
- - gcc -o  diamond diamond.c
-  - ./diamond
- - gcc -o  triangle triangle.c
- - ./triangle
+  include:    
+    - language: c  
+      sudo: false # only for faster builds  
+      compiler:
+        - clang
+        - gcc
+      script:  
+        - gcc -o pattern2 pattern2.c 
+        - ./pattern2
+        - gcc -o triangle1 triangle1.c
+        - ./triangle
+        - gcc -o tree tree.c
+        - ./tree
+        - gcc -o diamond diamond.c
+        - ./diamond
  
