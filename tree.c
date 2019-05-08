@@ -2,7 +2,7 @@
 
 #include<stdio.h>
  
-void main()
+int main()
 {
     int i,j,n;
  
@@ -17,6 +17,7 @@ void main()
  
         printf("\n");
     }
+ return 0;
 }
 
 
